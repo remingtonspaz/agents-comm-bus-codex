@@ -6,11 +6,10 @@
   "plugins": [
     {
       "name": "agents-comm-bus-telegram",
-      "version": "0.0.0",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/remingtonspaz/agents-comm-bus.git",
-        "path": "./plugins/codex/telegram"
+        "path": "plugins/codex/telegram"
       },
       "policy": {
         "installation": "AVAILABLE",
