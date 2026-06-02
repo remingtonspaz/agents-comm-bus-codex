@@ -1,15 +1,15 @@
-﻿{
+{
   "name": "agents-comm-bus-codex",
   "interface": {
     "displayName": "Agents Comm Bus for Codex"
   },
   "plugins": [
     {
-      "name": "agents-comm-bus-telegram",
+      "name": "telegram",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/remingtonspaz/agents-comm-bus.git",
-        "path": "plugins/codex/telegram"
+        "path": "./plugins/codex/telegram"
       },
       "policy": {
         "installation": "AVAILABLE",
