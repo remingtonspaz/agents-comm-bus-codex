@@ -17,6 +17,34 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "discord",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/remingtonspaz/agents-comm-bus.git",
+        "ref": "main",
+        "path": "./plugins/codex/discord"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "matrix",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/remingtonspaz/agents-comm-bus.git",
+        "ref": "main",
+        "path": "./plugins/codex/matrix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
